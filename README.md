@@ -33,8 +33,6 @@ This project Exam portal was completed using PHP script with Mysql Database. Oth
     - Register users and courses.
     - View users and courses.
 
-## Demo :running:
-![Game Demo](assets/images/demo.gif)
 
 
 
