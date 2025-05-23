@@ -1,0 +1,4 @@
+username,firstName,lastName,imageUrl,gender,password
+"ALX408500","Divine","Ukonu","/images/student_female_3.jpg","female","DU.1234"
+"ALX408501","Nkemchor","Ogor","/images/student_male.jpg","male","NO.1234"
+"ALX408502","Miheret","Tadesse","/images/student_female.png","female","MT.1234"

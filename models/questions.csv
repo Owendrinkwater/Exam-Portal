@@ -1,0 +1,25 @@
+question,option1,option2,option3,option4,option5,answer,examId
+'Which command should I use for changing a file owner?', 'chmod', 'su', 'chown', 'chgrp', 'I don\'t know', 'chown', 1
+'Which command should I use to display the exit code of the previous command?', 'echo ?', 'echo $EXITCODE', 'echo $CODE', 'echo $?', 'None of the above', 'echo $?', 1
+'Which command should I use for changing a file owner?', 'chmod', 'su', 'chown', 'chgrp', 'I don\'t know', 'chown', 1
+'Which command should I use to display the exit code of the previous command?', 'echo ?', 'echo $EXITCODE', 'echo $CODE', 'echo $?', 'None of the above', 'echo $?', 1
+'Which command should I use for changing a file owner?', 'chmod', 'su', 'chown', 'chgrp', 'I don\'t know', 'chown', 1
+'Which command should I use to display the exit code of the previous command?', 'echo ?', 'echo $EXITCODE', 'echo $CODE', 'echo $?', 'None of the above', 'echo $?', 1
+'Which command should I use for changing a file owner?', 'chmod', 'su', 'chown', 'chgrp', 'I don\'t know', 'chown', 1
+'Normalization solves the problem of?', 'Data redundancy', 'Insert anomaly', 'Delete anomaly', 'Update anomaly', 'All of the above', 'All of the above', 2
+'MySQL is a type of ___ database?', 'relational', 'non-relational', 'object-oriented', 'heirachical', 'MongoDB', 'relational', 2
+'Normalization solves the problem of?', 'Data redundancy', 'Insert anomaly', 'Delete anomaly', 'Update anomaly', 'All of the above', 'All of the above', 2
+'MySQL is a type of ___ database?', 'relational', 'non-relational', 'object-oriented', 'heirachical', 'MongoDB', 'relational', 2
+'Normalization solves the problem of?', 'Data redundancy', 'Insert anomaly', 'Delete anomaly', 'Update anomaly', 'All of the above', 'All of the above', 2
+'MySQL is a type of ___ database?', 'relational', 'non-relational', 'object-oriented', 'heirachical', 'MongoDB', 'relational', 2
+'Normalization solves the problem of?', 'Data redundancy', 'Insert anomaly', 'Delete anomaly', 'Update anomaly', 'All of the above', 'All of the above', 2
+'MySQL is a type of ___ database?', 'relational', 'non-relational', 'object-oriented', 'heirachical', 'MongoDB', 'relational', 2
+'How do you change directory on Linux?', 'pwd', 'cd', 'ls', 'which', 'None of the above', 'cd', 3
+'Which symbol should I use to redirect the error output to the standard output?', '2>&1', '1>&2', '2>', 'I don\'t know', 'None of the above', '2>&1', 3
+'What command would you use to list files on Linux?', 'pwd', 'cd', 'ls', 'which', 'None of the above', 'ls', 3
+'What are the different steps to form an executable file from C source code?', 'Interpretation compilation and assembly', 'Preprocessing compilation assembly and linking', 'Interpretation assembly and compilation', 'Compilation and linking', 'Preprocessing and compilation', 'Preprocessing compilation assembly and linking', 3
+'What is the numerical value for the r-xr--r-- permission?', '522', '544', '411', '644', 'None of the above', '544', 3
+'Which of these loop statements don’t exist in C?', 'for', 'while', 'foreach', 'do...while', 'None of the above', 'foreach', 3
+'What is the size of the float data type on a 64-bit machine?', '1 byte', '2 bytes', '4 bytes', '8 bytes ', 'I don\'t know', '4 bytes', 3
+'How many bytes will this statement allocate on a 64-bit machine? malloc(sizeof(int) * 4)', '4', '8', '16', '32', 'None of the above', '16', 3
+'The memory space reserved when calling malloc is on:', 'The heap', 'The stack', 'The stack and heap', 'I don\'t know', 'None of the above', 'The heap', 4

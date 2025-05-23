@@ -1,0 +1,64 @@
+body{
+    font-family: 'DM Serif Display', serif;
+    }
+    .container:first-of-type .row {
+        display: flex;
+        align-items: center;
+        background-color: #218380;
+    }
+    
+    .qPanel {
+        display: none;
+    }
+    
+    .qpanel.active {
+        display: block;
+    }
+    
+    #nav {
+        margin: 10px;
+    
+    } 
+    .navbutton {
+        cursor: pointer;
+        padding: 5px;
+        margin: 10px;
+        border: 1px solid #bbb;
+        border-radius: 3px;
+        color: #218380;
+    }
+    
+    .btn-prim {
+     background-color: #218380;
+    color: white;
+    }
+    
+    .btn-primary {
+        background-color: #218380;
+       color: white;
+       } 
+    
+    .qButton{
+        cursor: pointer;
+        padding: 6px 5px;
+        min-width: 10px;
+        min-height: 10px;
+        border: 1px solid #bbb;
+        border-radius: 3px;
+       color: #218380;}
+    
+    .timer{
+    float: right;
+    }
+    
+    .qButton.current{
+        color: white;
+        background-color: #218380;
+    }
+    
+    
+    
+    input[name="Submit_ans"]{
+        display: block;
+        margin: 50px auto 20px;
+    }

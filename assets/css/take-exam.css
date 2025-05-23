@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One|Be+Vietnam&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar-header {
+    font-family: 'Patua One', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8em;
+    font-weight: 600;
+    text-align: center;
+    color: #fffdd0; /* Maroon */
+    margin: 2em;
+}
+
+#sidebar {
+    width: 300px;
+    background-color: #800000; /* Maroon */
+    height: 100vh;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: all 0.3s;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+#sidebar.active {
+    margin-left: -300px;
+}
+
+#sidebar .btn {
+    width: 50%;
+}
+
+#sidebar .btn:hover {
+    background-color: #FFEFD5; /* Cream */
+}
+
+#sidebar .btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    width: 40px;
+}
+
+main {
+    background-color: #FFE4C4; /* Cream with transparency */
+    width: calc(100% - 300px);
+    padding: 10px 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-height: 100vh;
+}
+
+main.active {
+    width: 100%;
+}
+
+main .tab {
+    display: none;
+    margin: 20px auto;
+}
+
+main .tab.show {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -300px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    main {
+        width: 100%;
+    }
+}
+
+/* Specific Styles */
+
+.timer {
+    font-size: 1.3em;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    border-top: 1.5px solid #82878F;
+    border-bottom: 1.5px solid #82878F;
+    padding: 15px 0;
+    color: #c76161; /* Maroon */
+}
+
+.question-no-list {
+    list-style-type: none;
+    color: #c76161; /* Maroon */
+    font-size: 1em;
+    padding: 15px 30px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1.5px solid #82878F;
+}
+
+.question-no {
+    font-weight: 600;
+    background-color: brown; /* Maroon */
+    height: 1.5em;
+    width: 1.5em;
+    margin: 8px;
+    border-radius: 5px;
+    line-height: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.question-no.active {
+    background-color: #FFEFD5; /* Cream */
+}
+
+.show .tab-flex-cont {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab {
+    width: 100%;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.tab div:nth-last-of-type(2) {
+    flex: 1;
+}
+
+div.submit {
+    margin-top: 50px;
+}
+
+.start-exam {
+    display: block;
+    background-color: #FFF; /* Cream */
+    border: none;
+    color: #800000; /* Maroon */
+    cursor: pointer;
+    padding: 3px 3px 5px 5px;
+    text-align: center;
+    margin: 15px auto;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+.start-exam:hover {
+    background-color: #800000; /* Maroon */
+    color: #FFF; /* Cream */
+}
+
+.start-exam span {
+    font-size: 1.2em;
+    margin: 0 4px;
+}
+
+.questions .tab-flex-cont,
+.questions .tab-content {
+    width: 100%;
+}
+
+.tab header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    color: #704038; /* Slightly lighter shade of maroon */
+}
+
+.tab header h1 {
+    font-weight: 700;
+    color: #D49E4E; /* Cream */
+}
+
+#clockbox {
+    text-align: right;
+}
+
+form {
+    background-color: #FFF; /* Cream */
+    padding: 20px 30px;
+}
+
+.question-cont {
+    margin-bottom: 10px;
+    display: none;
+}
+
+.question-cont.show {
+    display: block;
+}
+
+.question-cont>*:not(.options-group) {
+    font-size: 1.05em;
+    font-weight: bold;
+}
+
+.question-control {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.question-control button {
+    width: 100px;
+    color: #218380;
+}
+
+.question-control button:not(:disabled):hover {
+    background-color: #218380;
+    color: white;
+}

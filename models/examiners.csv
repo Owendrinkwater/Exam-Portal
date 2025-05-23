@@ -1,0 +1,3 @@
+username,firstName,lastName,imageUrl,gender,password
+"faith_okoth","Faith","Okoth","/images/examiner_female.png","female","FO.1234"
+"Maarten_vm","Maarten","Van Middelaar","/images/examiner_male.png","male","MV.1234"
